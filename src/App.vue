@@ -2,8 +2,16 @@
   <section>
     <header><h1>My Friends</h1></header>
     <ul>
-      <friend-contact></friend-contact>
-      <friend-contact></friend-contact>
+      <friend-contact
+        name="Manuel Lorenz"
+        phone-number="01234 78992"
+        email-address="manuel@localhost.com"
+      ></friend-contact>
+      <friend-contact
+        name="Julie Jones"
+        phone-number="0987 65431"
+        email-address="julie@localhost.com"
+      ></friend-contact>
     </ul>
   </section>
 </template>
@@ -32,6 +40,8 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 * {
   box-sizing: border-box;
 }
